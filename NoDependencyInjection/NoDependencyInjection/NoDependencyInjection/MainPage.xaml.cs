@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Net.Http;
-using Newtonsoft.Json;
-using NoDependencyInjection.Models.Remote;
 using NoDependencyInjection.Services;
 using Xamarin.Forms;
 
