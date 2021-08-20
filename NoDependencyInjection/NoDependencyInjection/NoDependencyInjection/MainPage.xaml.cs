@@ -2,32 +2,32 @@
 using System.Net.Http;
 using Newtonsoft.Json;
 using NoDependencyInjection.Models.Remote;
+using NoDependencyInjection.Services;
 using Xamarin.Forms;
 
 namespace NoDependencyInjection
 {
     public partial class MainPage : ContentPage
     {
+        private readonly ParkService _parkService;
+
         public MainPage()
         {
             InitializeComponent();
+            _parkService = new ParkService();
         }
 
         private async void LoadParks(object sender, EventArgs e)
         {
-            var client = new HttpClient();
-            
             try
             {
-                var response = await client.GetAsync(
-                    "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/ParkFinderAmenities_Website/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json");
-                var content = await response.Content.ReadAsStringAsync();
-                var parkCollection = JsonConvert.DeserializeObject<ParkCollection>(content);
-                collectionView.ItemsSource = parkCollection.Parks;
+                var parkCollection = await _parkService.GetParks();
+                collectionView.ItemsSource = parkCollection?.Parks;
             }
             catch (Exception exception)
             {
                 Console.WriteLine(exception);
+                await DisplayAlert("Sorry!", "We were unable to connect with our servers. Please try again later.", "Ok");
             }
         }
     }
