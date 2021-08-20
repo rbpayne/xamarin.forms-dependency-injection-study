@@ -14,7 +14,7 @@ namespace ServiceLocatorStatic.Services
 
         public ParkService()
         {
-            _client = new HttpClient();
+            _client = ServiceLocator.HttpClient;
         }
 
         public async Task<ParkCollection?> GetParks()
@@ -23,7 +23,7 @@ namespace ServiceLocatorStatic.Services
 
             try
             {
-                var response = await _client.GetAsync(Constants.TnParksEndpoint);
+                var response = await _client.GetAsync(Constants.FindAParkEndpoint);
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
