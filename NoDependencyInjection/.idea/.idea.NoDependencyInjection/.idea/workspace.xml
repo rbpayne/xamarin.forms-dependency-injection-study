@@ -12,11 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa964178-fadf-4d62-9b2b-18162dc0f0bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoDependencyInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoDependencyInjection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoDependencyInjection/NoDependencyInjection/Services/ParkService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NoDependencyInjection/NoDependencyInjection/Services/ParkService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoDependencyInjection/NoDependencyInjection/Utilities/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NoDependencyInjection/NoDependencyInjection/Utilities/Constants.cs" afterDir="false" />
-    </list>
+    <list default="true" id="aa964178-fadf-4d62-9b2b-18162dc0f0bf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +93,7 @@
       <updated>1629474970640</updated>
       <workItem from="1629474979882" duration="3919000" />
       <workItem from="1629485276108" duration="11000" />
-      <workItem from="1629488509067" duration="109000" />
+      <workItem from="1629488509067" duration="119000" />
     </task>
     <servers />
   </component>
