@@ -3,7 +3,7 @@ This repository contains a Xamarin.Forms application for studying Dependency Inj
 
 Android | iOS
 :---: | :---:
-| <img src="images/ios.png" height="640" /> | <img src="images/android.png" height="640" />
+| <img src="images/ios.png" height="820" /> | <img src="images/android.png" height="820" />
 
 ## Studies
 
