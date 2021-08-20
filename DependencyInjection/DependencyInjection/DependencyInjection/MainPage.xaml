@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:DependencyInjection"
-             x:Class="DependencyInjection.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+<ContentPage
+    iOsSpecific:Page.UseSafeArea="true"
+    x:Class="DependencyInjection.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:remote="clr-namespace:DependencyInjection.Models.Remote;assembly=DependencyInjection"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout Margin="20,35,20,20">
+        <Label FontSize="Title" Text="TN State Parks" />
+        <Button Clicked="LoadParks" Text="Load Parks" />
+        <CollectionView x:Name="collectionView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="remote:Park">
+                    <Label Text="{Binding Attributes.Name}" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </StackLayout>
-
 </ContentPage>

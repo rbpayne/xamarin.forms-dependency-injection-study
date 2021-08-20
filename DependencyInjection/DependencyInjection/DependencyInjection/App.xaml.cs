@@ -11,8 +11,10 @@ namespace DependencyInjection
         public App()
         {
             InitializeComponent();
+            
+            Dependencies.Init();
 
-            MainPage = new MainPage();
+            MainPage = new MainPage(Dependencies.ParkService);
         }
 
         protected override void OnStart()
