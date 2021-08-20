@@ -11,6 +11,8 @@ namespace ServiceLocator
         public App()
         {
             InitializeComponent();
+            
+            Dependencies.Init();
 
             MainPage = new MainPage();
         }
