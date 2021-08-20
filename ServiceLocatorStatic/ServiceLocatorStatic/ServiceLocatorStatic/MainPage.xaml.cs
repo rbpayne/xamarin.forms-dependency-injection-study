@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ServiceLocatorStatic.Services;
+using ServiceLocatorStatic.Utilities;
 using Xamarin.Forms;
 
 namespace ServiceLocatorStatic
@@ -15,7 +12,7 @@ namespace ServiceLocatorStatic
         public MainPage()
         {
             InitializeComponent();
-            _parkService = new ParkService();
+            _parkService = Dependencies.ParkService;
         }
 
         private async void LoadParks(object sender, EventArgs e)

@@ -1,11 +1,13 @@
 using System;
 using System.Net.Http;
+using ServiceLocatorStatic.Services;
 
 namespace ServiceLocatorStatic.Utilities
 {
-    public static class ServiceLocator
+    public static class Dependencies
     {
         public static readonly HttpClient HttpClient = GetHttpClient();
+        public static readonly ParkService ParkService = new ParkService();
 
         /*
          * Constructing this in a service locator creates a separation of concerns. This means I control what

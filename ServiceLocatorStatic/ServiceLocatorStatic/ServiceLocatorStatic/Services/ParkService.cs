@@ -14,7 +14,7 @@ namespace ServiceLocatorStatic.Services
 
         public ParkService()
         {
-            _client = ServiceLocator.HttpClient;
+            _client = Dependencies.HttpClient;
         }
 
         public async Task<ParkCollection?> GetParks()
