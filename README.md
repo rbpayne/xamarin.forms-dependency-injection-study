@@ -80,7 +80,7 @@ namespace ServiceLocator.Services
 
 ### [Dependency Injection Pattern](DependencyInjection)
 
-The dependency injection pattern gives complete control of resolving dependencies to the service container. Each classes has no knowledge of how the dependency is constructed. They simply accept what they are given.
+The dependency injection pattern gives complete control of resolving dependencies to the service container. Classes have no knowledge of how the dependency is constructed. They simply accept what they are given.
 
 ```c#
 namespace DependencyInjection.Services
