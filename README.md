@@ -42,7 +42,7 @@ namespace NoDependencyInjection.Services
 
 ### [Service Locator Pattern](ServiceLocator)
 
-The service locator pattern allows you to move the concrete implementations of your dependencies into a separate location, commonly called a "service container". You then get the concretion calling a method on the container.
+The service locator pattern allows you to move the concrete implementations of your dependencies into a separate location, commonly called a "service container". You then get the concretion by calling a method on the container.
 
 **Note:** My main study used the [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection) library to create the container. However, you aren't required to use a library. You can simply use a static class. See [ServiceLocatorStatic](ServiceLocatorStatic) for an example approach.
 
