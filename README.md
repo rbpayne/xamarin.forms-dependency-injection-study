@@ -7,9 +7,9 @@ Android | iOS
 
 ## Studies
 
-### [No Dependency Injection](/NoDependencyInjection)
+### [No Dependency Injection](NoDependencyInjection)
 
-No dependency injection involves instantiating classes directly where they are called.
+No dependency injection involves instantiating classes directly where they are needed.
 
 ```csharp
 namespace NoDependencyInjection.Services
@@ -40,11 +40,11 @@ namespace NoDependencyInjection.Services
 * Classes are open for modification (violates Open/Closed Principle)
 * Not suitable for production grade apps with multiple services
 
-### [Service Locator Pattern](/ServiceLocatorPattern)
+### [Service Locator Pattern](ServiceLocator)
 
-The service locator pattern stores concrete implementations of classes in a service container. Those concretions are then accessed by calling the container directly.
+The service locator pattern allows you to move the concrete implementations of your dependencies into a separate location, commonly called a "service container". You then get the concretion calling a method on the container.
 
-This pattern can be used with or without a dependency injection library like [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection). I studied both approaches. See the [ServiceLocatorStatic](ServiceLocatorStatic) solution for an example that does not use a library.
+**Note:** My main study used the [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection) library to create the container. However, you aren't required to use a library. You can simply use a static class. See [ServiceLocatorStatic](ServiceLocatorStatic) for an example approach.
 
 ```c#
 namespace ServiceLocator.Services
@@ -67,7 +67,7 @@ namespace ServiceLocator.Services
 
 **Benefits**
 
-* Separation of concerns
+* Creates separation of concerns
 * Easy to understand
 * Just-in-time service requests (services are resolved at runtime rather than compile time)
 
@@ -78,9 +78,9 @@ namespace ServiceLocator.Services
 * Difficult to identify what dependencies are used and where
 * Can't detect missing dependencies before runtime
 
-### Dependency Injection Pattern
+### [Dependency Injection Pattern](DependencyInjection)
 
-The dependency injection pattern allows the service container to orchestrate all dependencies indepent of the classes that dependent on them.
+The dependency injection pattern gives complete control of resolving dependencies to the service container. Each classes has no knowledge of how the dependency is constructed. They simply accept what they are given.
 
 ```c#
 namespace DependencyInjection.Services
