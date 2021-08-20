@@ -23,7 +23,7 @@ namespace NoDependencyInjection.Services
 
             try
             {
-                var response = await _client.GetAsync(Constants.TnParksEndpoint);
+                var response = await _client.GetAsync(Constants.FindAParkEndpoint);
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
