@@ -12,7 +12,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa964178-fadf-4d62-9b2b-18162dc0f0bf" name="Changes" comment="" />
+    <list default="true" id="aa964178-fadf-4d62-9b2b-18162dc0f0bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/Services/ParkService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/Utilities/Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoDependencyInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoDependencyInjection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic/ServiceLocatorStatic.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629474970640</updated>
-      <workItem from="1629474979882" duration="3487000" />
+      <workItem from="1629474979882" duration="3919000" />
+      <workItem from="1629485276108" duration="11000" />
     </task>
     <servers />
   </component>
@@ -99,7 +107,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -111,6 +119,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
