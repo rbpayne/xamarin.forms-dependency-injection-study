@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa964178-fadf-4d62-9b2b-18162dc0f0bf" name="Changes" comment="" />
+    <list default="true" id="aa964178-fadf-4d62-9b2b-18162dc0f0bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NoDependencyInjection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoDependencyInjection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +53,8 @@
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34997427" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider#Xamarin.iOS: NoDependencyInjection.iOS" value="iPhone 11" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/ryan.payne/.android/avd/Pixel_2_API_29.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-20T19:47:11.273702Z" />
     <property name="DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider" value="Simulator" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -62,7 +67,7 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Xamarin.iOS.NoDependencyInjection.iOS">
+  <component name="RunManager" selected="Xamarin.Android.NoDependencyInjection.Android">
     <configuration name="NoDependencyInjection.Android" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/NoDependencyInjection/NoDependencyInjection.Android/NoDependencyInjection.Android.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -94,6 +99,7 @@
       <workItem from="1629474979882" duration="3919000" />
       <workItem from="1629485276108" duration="11000" />
       <workItem from="1629488509067" duration="119000" />
+      <workItem from="1629488756339" duration="499000" />
     </task>
     <servers />
   </component>
