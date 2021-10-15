@@ -118,3 +118,4 @@ namespace DependencyInjection.Services
 - [Use a service locator to register and retrieve dependencies](https://docs.microsoft.com/en-us/learn/modules/explore-cross-platform-design-patterns/8-use-a-service-locator-to-register-and-retrieve-dependencies)
 - [Use an IoC container to automatically inject dependencies](https://docs.microsoft.com/en-us/learn/modules/explore-cross-platform-design-patterns/10-use-an-ioc-container-to-automatically-inject-dependencies)
 - [SOLID Principles for C# Developers](https://www.pluralsight.com/courses/csharp-solid-principles)
+- [Dependency injection in Android](https://developer.android.com/training/dependency-injection)
